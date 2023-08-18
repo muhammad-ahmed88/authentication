@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="main">
+        <h2>Log In</h2>
+        
+        
+        <div>Email</div>
+        <input type="text" name="" id="email">
+        <div>Password</div>
+        <input type="password" name="" id="password">
+        
+    
+        <div class="btn-div">
+            <button onclick="approve()" id="login-btn">Login</button>
+        </div> 
+    </div>
+    </div>
+
+    <div class="main-show" style="display: none">
+
+    <div class="card" style="width: 20rem;">
+      
+        <div class="card-body">
+          <h5 class="card-title">Email : <span class="email-show"></span></h5>
+          <h5 class="card-text">Email verification : <span class="verification"></span></h5>
+          <button class="verify-btn" onclick="sendVerification()">Send Verificatio</button>
+        </div>
+      </div>
+</div>  
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.23/sweetalert2.all.js" integrity="sha512-g4uHWk4G2/iOv4DtSyGhYDyyzRjp9G8tN3GJv0DGJHRUHKIbyFR9yPOpAdvdJwiUej7CWOw5hQFeA42ktHgTgA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
